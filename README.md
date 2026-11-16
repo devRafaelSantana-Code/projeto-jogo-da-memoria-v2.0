@@ -1,113 +1,113 @@
 # 🧠 Jogo da Memória — O Desafio das Três Stacks
 
+Projeto desenvolvido para explorar a evolução do desenvolvimento web por meio de três abordagens tecnológicas aplicadas à construção de um jogo da memória.
+
+A aplicação apresenta uma evolução progressiva, começando com JavaScript puro, passando pela utilização de jQuery e Bootstrap 5 e, futuramente, avançando para React.
+
+## 🚀 Demonstração Online
+
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript_Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript Vanilla">
-  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=FFFFFF" alt="jQuery">
-  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=FFFFFF" alt="Bootstrap 5">
+  <a href="https://projeto-jogo-da-memoria-v20.vercel.app/">
+    <img src="https://img.shields.io/badge/ACESSAR%20PROJETO-VERS%C3%83O%202.0-7952B3?style=for-the-badge&logo=vercel&logoColor=white" alt="Acessar projeto na Vercel">
+  </a>
+</p>
+
+## 🛠️ Tecnologias
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
 </p>
 
 ## 📌 Sobre o Projeto
 
-O **Jogo da Memória — O Desafio das Três Stacks** é um projeto desenvolvido com o objetivo de explorar diferentes abordagens de desenvolvimento front-end por meio da implementação de um mesmo jogo utilizando tecnologias e paradigmas distintos.
+O **Jogo da Memória — O Desafio das Três Stacks** consiste no desenvolvimento de um jogo interativo, utilizando diferentes tecnologias para explorar conceitos fundamentais de programação e desenvolvimento de interfaces.
 
-Atualmente, o projeto possui duas versões desenvolvidas: a primeira utiliza JavaScript Vanilla, CSS3 e HTML5, enquanto a segunda foi reconstruída com jQuery e Bootstrap 5.
+O projeto contempla três etapas:
 
-A proposta é demonstrar a evolução da implementação, comparando diferentes estratégias de manipulação da DOM, gerenciamento da lógica da aplicação, organização do código e construção de interfaces responsivas.
+- **Versão 1.0:** desenvolvida com HTML5, CSS3 e JavaScript Vanilla.
+- **Versão 2.0:** evolução implementada com jQuery e Bootstrap 5.
+- **Versão 3.0:** próxima etapa planejada com React.
 
-O projeto também possui uma terceira versão planejada, que utilizará React para explorar uma arquitetura declarativa baseada em componentes e gerenciamento de estados reativos.
+## 🎮 Funcionalidades
 
-## 🚀 As Três Etapas do Projeto
+- Tabuleiro interativo de cartas.
+- Seleção e comparação de cartas.
+- Identificação de pares correspondentes.
+- Contabilização de movimentos.
+- Cronômetro da partida.
+- Identificação da conclusão do jogo.
+- Exibição do resultado final.
+- Reinicialização da partida.
 
-### 1. Versão 1.0 — JavaScript Vanilla + CSS3
+## 🧩 Evolução do Projeto
+
+### Versão 1.0 — JavaScript Vanilla
 
 <badge color="success">Concluída</badge>
 
-**Paradigma:** Programação imperativa.
+Primeira implementação, desenvolvida com JavaScript puro, explorando os fundamentos da linguagem e a manipulação direta do DOM.
 
-- **Estrutura:** HTML5 para organização dos elementos e CSS3 para construção da interface.
-- **Lógica:** JavaScript puro com manipulação direta da DOM por meio das APIs nativas do navegador.
-- **Estilização:** CSS3 personalizado, utilizando recursos de transformações tridimensionais, como `perspective`, `transform-style: preserve-3d` e `backface-visibility`.
-- **Gerenciamento da partida:** Controle das cartas selecionadas, identificação de pares, tentativas e condições de vitória por meio de variáveis e estruturas de dados JavaScript.
-- **Destaque técnico:** Desenvolvimento da lógica do jogo sem bibliotecas externas, explorando os recursos nativos da plataforma web.
+**Tecnologias:** HTML5, CSS3 e JavaScript Vanilla.
 
-### 2. Versão 2.0 — jQuery + Bootstrap 5
+### Versão 2.0 — jQuery + Bootstrap 5
 
-<badge color="success">Concluída — Versão atual</badge>
+<badge color="success">Concluída · Versão atual</badge>
 
-**Paradigma:** Programação imperativa com abstrações de bibliotecas.
+Segunda implementação, com aprimoramento da estrutura da aplicação por meio do jQuery e utilização do Bootstrap 5 na construção da interface.
 
-- **Estrutura:** HTML5 para organização da interface, com Bootstrap 5 para construção de componentes e layouts responsivos.
-- **Lógica:** jQuery para manipulação da DOM, seleção de elementos e gerenciamento de eventos.
-- **Estilização:** Bootstrap 5, CSS personalizado e recursos de transformações tridimensionais para as animações das cartas.
-- **Gerenciamento da partida:** Controle das cartas selecionadas, identificação de pares e condições de conclusão por meio de variáveis JavaScript e manipulação de classes.
-- **Componentes de interface:** Utilização dos recursos do Bootstrap, incluindo o Modal de conclusão da partida.
-- **Destaque técnico:** Evolução da primeira implementação por meio da utilização de bibliotecas que simplificam a manipulação da interface e aceleram o desenvolvimento de funcionalidades.
+**Tecnologias:** HTML5, CSS3, JavaScript, jQuery e Bootstrap 5.
 
-### 3. Versão 3.0 — React
+**Demonstração online:** [Jogo da Memória — Versão 2.0](https://projeto-jogo-da-memoria-v20.vercel.app/).
 
-<badge color="info">Planejada</badge>
+### Versão 3.0 — React
 
-**Paradigma:** Programação declarativa baseada em componentes.
+<badge color="warning">Planejada</badge>
 
-A terceira etapa prevê a reconstrução do jogo utilizando React, explorando uma arquitetura moderna baseada em componentes reutilizáveis e gerenciamento de estados reativos.
+Próxima etapa de desenvolvimento, com proposta de reconstruir a aplicação utilizando React e explorar uma arquitetura baseada em componentes.
 
-- **Arquitetura:** Organização da aplicação em componentes independentes e reutilizáveis.
-- **Lógica:** Implementação das regras do jogo utilizando JavaScript e os recursos do React.
-- **Gerenciamento de estado:** Utilização de `useState` para controlar as cartas selecionadas, os pares encontrados e o andamento da partida.
-- **Controle de efeitos:** Utilização de `useEffect` para gerenciamento de efeitos colaterais, como cronômetros e temporizadores.
-- **Estilização:** Definição da abordagem visual durante o desenvolvimento da nova versão.
+**Tecnologia prevista:** React.
 
-A versão 3.0 representa a próxima etapa de evolução do projeto, permitindo comparar a abordagem imperativa das versões anteriores com o paradigma declarativo do React.
+## 📊 Comparativo Técnico
 
----
+| Característica         | Versão 1.0             | Versão 2.0           | Versão 3.0 |
+| ---------------------- | ---------------------- | -------------------- | ---------- |
+| Tecnologias principais | HTML, CSS e JavaScript | jQuery e Bootstrap 5 | React      |
+| Manipulação do DOM     | JavaScript Vanilla     | jQuery               | React      |
+| Tratamento de eventos  | JavaScript             | jQuery               | React      |
+| Estilização            | CSS3                   | CSS3 e Bootstrap 5   | A definir  |
+| Status                 | Concluída              | Concluída            | Planejada  |
 
-## 📊 Comparativo Técnico de Arquitetura
+## ▶️ Como Executar
 
-| Critério                    | JavaScript Vanilla                | jQuery + Bootstrap 5                       | React (Planejada)                                |
-| :-------------------------- | :-------------------------------- | :----------------------------------------- | :----------------------------------------------- |
-| **Paradigma**               | Imperativo                        | Imperativo com abstrações                  | Declarativo                                      |
-| **Manipulação da DOM**      | APIs nativas do navegador         | Seletores e métodos jQuery                 | Renderização e reconciliação pelo React          |
-| **Gerenciamento de estado** | Variáveis e estruturas de dados   | Variáveis JavaScript e classes CSS         | Estados reativos com `useState`                  |
-| **Arquitetura**             | Estrutura tradicional de arquivos | Bibliotecas e componentes de interface     | Componentes reutilizáveis                        |
-| **Estilização**             | CSS3 personalizado                | Bootstrap 5 e CSS personalizado            | A definir                                        |
-| **Responsividade**          | Media Queries e CSS3              | Sistema de Grid e breakpoints do Bootstrap | A definir                                        |
-| **Animações 3D**            | CSS3 Transform                    | CSS3 Transform com manipulação via jQuery  | A definir                                        |
-| **Dependências**            | Nenhuma biblioteca externa        | jQuery e Bootstrap 5                       | React                                            |
-| **Build**                   | Não exige compilação              | Não exige compilação                       | A definir                                        |
-| **Organização**             | Manipulação direta de elementos   | Abstrações para manipulação da interface   | Componentização e separação de responsabilidades |
+1. Clone o repositório:
 
-## 💻 Como Executar Cada Versão
+```bash
+git clone URL_DO_REPOSITORIO
+```
 
-### 1. JavaScript Vanilla
+1. Acesse a pasta do projeto:
 
-1. Acesse a pasta correspondente à versão Vanilla.
-2. Abra o arquivo `index.html` diretamente no navegador.
-3. Opcionalmente, utilize a extensão **Live Server** no Visual Studio Code.
+```bash
+cd projeto-jogo-da-memoria
+```
 
-### 2. jQuery + Bootstrap 5
+1. Abra o arquivo `index.html` da versão desejada no navegador ou utilize a extensão Live Server do Visual Studio Code.
 
-1. Acesse a pasta correspondente à versão jQuery.
-2. Abra o arquivo `index.html` diretamente no navegador.
-3. Certifique-se de possuir conexão com a internet para carregar as bibliotecas disponibilizadas por CDN.
-4. Opcionalmente, utilize a extensão **Live Server** no Visual Studio Code.
+## 📚 Conhecimentos Consolidados
 
-### 3. React
-
-A terceira versão ainda está planejada e terá suas instruções de instalação e execução documentadas após sua implementação.
-
-## 🧠 Conhecimentos Consolidados e Aprendizados
-
-O desenvolvimento das duas primeiras versões proporcionou uma experiência prática de comparação entre diferentes abordagens de desenvolvimento front-end.
-
-- **JavaScript Vanilla:** aprofundamento na manipulação nativa da DOM, no gerenciamento de eventos, nas estruturas de dados e no controle imperativo da lógica de uma aplicação.
-- **jQuery + Bootstrap 5:** compreensão das abstrações oferecidas por bibliotecas, utilização de seletores, encadeamento de métodos, manipulação de elementos e construção de interfaces responsivas.
-- **Evolução arquitetural:** compreensão das diferenças entre desenvolver uma aplicação utilizando recursos nativos do navegador e utilizar bibliotecas que oferecem abstrações para simplificar sua implementação.
-
-A terceira versão, planejada com React, permitirá ampliar essa experiência por meio da componentização, do gerenciamento de estados reativos e da programação declarativa.
-
-O principal objetivo é consolidar conhecimentos, compreender diferentes paradigmas de programação e desenvolver a capacidade de selecionar ferramentas adequadas para solucionar problemas reais de desenvolvimento de software.
-
----
+- Estruturação de interfaces com HTML5.
+- Estilização com CSS3.
+- Programação com JavaScript Vanilla.
+- Manipulação do DOM com JavaScript e jQuery.
+- Tratamento de eventos e interações.
+- Desenvolvimento de lógica de jogo.
+- Controle de movimentos e cronômetro.
+- Construção de interfaces responsivas com Bootstrap 5.
+- Organização e evolução progressiva de aplicações web.
 
 ## 👨‍💻 Autor
 
