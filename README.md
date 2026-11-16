@@ -1,8 +1,23 @@
 # 🧠 Jogo da Memória — O Desafio das Três Stacks
 
-\<p align="center"> \<img src="[https://img.shields.io/badge/Vers%C3%A3o-2.0-2EA44F?style=for-the-badge](https://img.shields.io/badge/Vers%C3%A3o-2.0-2EA44F?style=for-the-badge)" alt="Versão 2.0"> \<img src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)" alt="HTML5"> \<img src="[https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)" alt="CSS3"> \<img src="[https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)" alt="jQuery"> \<img src="[https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)" alt="Bootstrap 5"> \</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Vers%C3%A3o-2.0-2EA44F?style=for-the-badge" alt="Versão 2.0">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
+</p>
 
-\<p align="center"> \<a href="#-sobre-o-projeto">Sobre\</a> • \<a href="#-demonstração-visual">Demonstração\</a> • \<a href="#-funcionalidades">Funcionalidades\</a> • \<a href="#-arquitetura-e-tecnologias">Tecnologias\</a> • \<a href="#-roadmap-de-desenvolvimento">Roadmap\</a> • \<a href="#-estrutura-do-projeto">Estrutura\</a> • \<a href="#-como-executar">Execução\</a> • \<a href="#-aprendizados">Aprendizados\</a> \</p>
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-demonstração-visual">Demonstração</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-arquitetura-e-tecnologias">Tecnologias</a> •
+  <a href="#-roadmap-de-desenvolvimento">Roadmap</a> •
+  <a href="#-estrutura-do-projeto">Estrutura</a> •
+  <a href="#-como-executar">Execução</a> •
+  <a href="#-aprendizados">Aprendizados</a>
+</p>
 
 ---
 
@@ -89,7 +104,7 @@ O projeto foi planejado em três versões independentes, cada uma explorando uma
 
 ### 2.0 — jQuery + Bootstrap 5
 
-\<badge color="success">Implementada\</badge>
+<p><img src="https://img.shields.io/badge/Implementada-2EA44F?style=flat-square" alt="Implementada"></p>
 
 **Stack:** HTML5 + CSS3 + jQuery + Bootstrap 5
 
@@ -102,7 +117,7 @@ O projeto foi planejado em três versões independentes, cada uma explorando uma
 
 ### 3.0 — React + Vite + Tailwind CSS
 
-\<badge color="warning">Planejada\</badge>
+<p><img src="https://img.shields.io/badge/Planejada-FFA500?style=flat-square" alt="Planejada"></p>
 
 **Stack:** React + Vite + Tailwind CSS
 
@@ -194,8 +209,14 @@ A próxima etapa, prevista para a versão 3.0, explorará o desenvolvimento base
 
 Estudante de Engenharia da Computação, com foco em desenvolvimento Full-Stack e Engenharia de Software.
 
-\<p align="left"> \<a href="[https://github.com/devRafaelSantana-Code](https://github.com/devRafaelSantana-Code)" target="\_blank"> \<img src="[https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub"> \</a> \</p>
+<p align="left">
+  <a href="https://github.com/devRafaelSantana-Code" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
 ---
 
-\<p align="center"> Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas. \</p>
+<p align="center">
+  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
+</p>
