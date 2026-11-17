@@ -1,34 +1,30 @@
 :root {
    --color-bg-start: #14cde6;
    --color-bg-end: #ae0cee;
-   --color-card-front: #112233;
-   --color-card-back: #55ee00;
-   --color-card-hover: #ee9922;
-   --color-shadow-title: #00000054;
-   --color-shadow-card-sm: #00000066;
-   --color-shadow-card-md: #00000059;
-   --color-shadow-text: #0000004f;
-   --glass-border: #ffffff26;
+   --color-card-front: #123;
+   --color-card-back: #5e0;
+   --color-card-hover: #e92;
+   --color-shadow-title: #0005;
+   --color-shadow-card: #0008;
+   --color-shadow-text: #0005;
+   --color-footer-bg: #0005;
 
    --font-primary: "Righteous", sans-serif;
-   --font-secondary: "Lato", sans-serif;
+   --font-secondary: Arial, Helvetica, sans-serif;
 
    --board-max-width-xs: 340px;
    --board-max-width-sm: 480px;
-   --board-max-width-md: 560px;
+   --board-max-width-md: 540px;
 
-   --card-max-height-xs: 10.5vh;
-   --card-max-height-sm: 11.5vh;
-   --card-max-height-md: 12vh;
+   --card-max-height-xs: 11vh;
+   --card-max-height-sm: 12.5vh;
+   --card-max-height-md: 13.5vh;
 
-   --card-radius-xs: 8px;
-   --card-radius-md: 12px;
+   --card-radius-xs: 10px;
+   --card-radius-md: 20px;
 
-   --card-font-xs: 1.25rem;
-   --card-font-md: 2rem;
-
-   --footer-height: 56px;
-   --footer-font-size: 16px;
+   --card-font-xs: 20px;
+   --card-font-md: 30px;
 
    --transition-flip: 500ms;
    --transition-hover: 200ms;
@@ -43,6 +39,7 @@ body {
    width: 100vw;
    overflow: hidden;
    user-select: none;
+   font-family: var(--font-primary);
 }
 
 #appContainer {
@@ -65,12 +62,14 @@ footer {
    display: flex;
    justify-content: center;
    align-items: center;
+   width: 100%;
    height: 60px;
-   color: #ffffff99;
+   font-family: var(--font-secondary);
+   font-weight: 600;
    font-size: 13px;
-   letter-spacing: 0.5px;
-   background-color: #00000026;
-   border-top: 1px solid var(--glass-border);
+   color: #fff;
+   text-shadow: 0px 0px 5px var(--color-shadow-text);
+   background-color: var(--color-footer-bg);
 }
 
 #gameBoard {
@@ -82,10 +81,11 @@ footer {
 .card-wrapper {
    flex: 0 0 25%;
    max-width: 25%;
-   aspect-ratio: 4 / 3;
+   aspect-ratio: 1 / 1;
    perspective: 1000px;
    max-height: var(--card-max-height-xs);
    box-sizing: border-box;
+   padding: 4px;
 }
 
 .card-inner {
@@ -111,7 +111,7 @@ footer {
    align-items: center;
    border-radius: var(--card-radius-xs);
    backface-visibility: hidden;
-   box-shadow: 2px 2px 8px var(--color-shadow-card-sm);
+   box-shadow: 6px 6px 8px var(--color-shadow-card);
 }
 
 .card-front {
@@ -121,10 +121,11 @@ footer {
 
 .card-back {
    background-color: var(--color-card-back);
+   color: #fff;
    font-size: var(--card-font-xs);
    font-weight: 500;
    text-shadow: 0px 0px 20px var(--color-shadow-text);
-   transition: background-color var(--transition-hover) ease-in-out;
+   transition: all ease var(--transition-hover);
 }
 
 .card-back:hover {
@@ -132,16 +133,23 @@ footer {
 }
 
 #restartBtn {
+   color: #fff;
+   font-family: var(--font-primary);
    background: linear-gradient(
       150deg,
       var(--color-bg-start),
       var(--color-bg-end)
    );
-   transition: all var(--transition-btn) ease;
+   border: 0;
+   border-radius: 30px;
+   transition:
+      background var(--transition-btn),
+      transform var(--transition-hover);
 }
 
 #restartBtn:hover {
    background: var(--color-card-hover) !important;
+   cursor: pointer;
    transform: scale(1.05);
 }
 
@@ -152,6 +160,7 @@ footer {
 
    .card-wrapper {
       max-height: var(--card-max-height-sm);
+      padding: 5px; /* Simula o gap de 10px da v1.0 */
    }
 }
 
@@ -167,7 +176,7 @@ footer {
    .card-front,
    .card-back {
       border-radius: var(--card-radius-md);
-      box-shadow: 4px 4px 10px var(--color-shadow-card-md);
+      box-shadow: 10px 10px 10px var(--color-shadow-card);
    }
 
    .card-back {
