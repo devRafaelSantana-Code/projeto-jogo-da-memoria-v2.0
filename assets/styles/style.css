@@ -8,9 +8,7 @@
    --color-shadow-card-sm: #00000066;
    --color-shadow-card-md: #00000059;
    --color-shadow-text: #0000004f;
-   --color-footer-bg: #00000033;
-   --color-footer-border: #ffffff1a;
-   --color-footer-highlight: #14cde6;
+   --glass-border: #ffffff26;
 
    --font-primary: "Righteous", sans-serif;
    --font-secondary: "Lato", sans-serif;
@@ -64,22 +62,15 @@ body {
 }
 
 footer {
-   min-height: var(--footer-height);
-   font-family: var(--font-secondary);
-   font-size: var(--footer-font-size);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   color: #ffffff99;
+   font-size: 13px;
    letter-spacing: 0.5px;
-   background-color: var(--color-footer-bg);
-   border-top: 1px solid var(--color-footer-border);
-   backdrop-filter: blur(6px);
-   -webkit-backdrop-filter: blur(6px);
-}
-
-footer span:last-child {
-   transition: color var(--transition-hover) ease-in-out;
-}
-
-footer:hover span:last-child {
-   color: var(--color-footer-highlight) !important;
+   background-color: #00000026;
+   border-top: 1px solid var(--glass-border);
 }
 
 #gameBoard {
