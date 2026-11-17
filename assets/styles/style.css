@@ -12,19 +12,18 @@
    --font-primary: "Righteous", sans-serif;
    --font-secondary: Arial, Helvetica, sans-serif;
 
-   --board-max-width-xs: 340px;
-   --board-max-width-sm: 480px;
-   --board-max-width-md: 540px;
-
-   --card-max-height-xs: 11vh;
-   --card-max-height-sm: 12.5vh;
-   --card-max-height-md: 13.5vh;
+   --board-max-width-xs: 300px;
+   --board-max-width-sm: 410px;
+   --board-max-width-md: 460px;
+   --card-max-height-xs: 9.5vh;
+   --card-max-height-sm: 10.5vh;
+   --card-max-height-md: 11.5vh;
 
    --card-radius-xs: 10px;
-   --card-radius-md: 20px;
+   --card-radius-md: 18px;
 
-   --card-font-xs: 20px;
-   --card-font-md: 30px;
+   --card-font-xs: 18px;
+   --card-font-md: 26px;
 
    --transition-flip: 500ms;
    --transition-hover: 200ms;
