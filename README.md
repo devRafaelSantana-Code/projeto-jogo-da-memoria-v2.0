@@ -221,7 +221,7 @@ A próxima etapa, prevista para a versão 3.0, explorará o desenvolvimento base
 
 Estudante de Engenharia da Computação, com foco em desenvolvimento Full-Stack e Engenharia de Software.
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/devRafaelSantana-Code" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
