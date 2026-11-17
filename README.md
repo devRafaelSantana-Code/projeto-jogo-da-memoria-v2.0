@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-demonstração-visual">Demonstração</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-arquitetura-e-tecnologias">Tecnologias</a> •
-  <a href="#-roadmap-de-desenvolvimento">Roadmap</a> •
-  <a href="#-estrutura-do-projeto">Estrutura</a> •
-  <a href="#-como-executar">Execução</a> •
-  <a href="#-aprendizados">Aprendizados</a>
+  <a href="#-sobre-o-projeto"><img src="https://img.shields.io/badge/Sobre-263238?style=for-the-badge" alt="Sobre"></a>
+  <a href="#-demonstração-visual"><img src="https://img.shields.io/badge/Demonstra%C3%A7%C3%A3o-37474F?style=for-the-badge" alt="Demonstração"></a>
+  <a href="#-funcionalidades"><img src="https://img.shields.io/badge/Funcionalidades-263238?style=for-the-badge" alt="Funcionalidades"></a>
+  <a href="#-arquitetura-e-tecnologias"><img src="https://img.shields.io/badge/Tecnologias-37474F?style=for-the-badge" alt="Tecnologias"></a>
+  <a href="#-roadmap-de-desenvolvimento"><img src="https://img.shields.io/badge/Roadmap-263238?style=for-the-badge" alt="Roadmap"></a>
+  <a href="#-estrutura-do-projeto"><img src="https://img.shields.io/badge/Estrutura-37474F?style=for-the-badge" alt="Estrutura"></a>
+  <a href="#-como-executar"><img src="https://img.shields.io/badge/Execu%C3%A7%C3%A3o-263238?style=for-the-badge" alt="Execução"></a>
+  <a href="#-aprendizados"><img src="https://img.shields.io/badge/Aprendizados-37474F?style=for-the-badge" alt="Aprendizados"></a>
 </p>
 
 ---
@@ -41,7 +41,11 @@ A versão 2.0 representa uma etapa intermediária entre a implementação com Ja
 
 Acesse a versão online do projeto:
 
-[**Jogo da Memória — Versão 2.0**](https://projeto-jogo-da-memoria-v20.vercel.app/)
+<p align="center">
+  <a href="https://projeto-jogo-da-memoria-v20.vercel.app/">
+    <img src="https://img.shields.io/badge/Acessar_Jogo_da_Mem%C3%B3ria-2EA44F?style=for-the-badge&logo=vercel&logoColor=white" alt="Acessar Jogo da Memória — Versão 2.0">
+  </a>
+</p>
 
 ---
 
@@ -94,6 +98,10 @@ O projeto foi planejado em três versões independentes, cada uma explorando uma
 
 ### 1.0 — JavaScript Vanilla
 
+<p>
+  <img src="https://img.shields.io/badge/Implementada-2EA44F?style=flat-square" alt="Implementada">
+</p>
+
 **Stack:** HTML5 + CSS3 + JavaScript ES6+
 
 - Estrutura semântica com HTML5.
@@ -104,7 +112,9 @@ O projeto foi planejado em três versões independentes, cada uma explorando uma
 
 ### 2.0 — jQuery + Bootstrap 5
 
-<p><img src="https://img.shields.io/badge/Implementada-2EA44F?style=flat-square" alt="Implementada"></p>
+<p>
+  <img src="https://img.shields.io/badge/Implementada-2EA44F?style=flat-square" alt="Implementada">
+</p>
 
 **Stack:** HTML5 + CSS3 + jQuery + Bootstrap 5
 
@@ -117,7 +127,9 @@ O projeto foi planejado em três versões independentes, cada uma explorando uma
 
 ### 3.0 — React + Vite + Tailwind CSS
 
-<p><img src="https://img.shields.io/badge/Planejada-FFA500?style=flat-square" alt="Planejada"></p>
+<p>
+  <img src="https://img.shields.io/badge/Planejada-FFA726?style=flat-square" alt="Planejada">
+</p>
 
 **Stack:** React + Vite + Tailwind CSS
 
